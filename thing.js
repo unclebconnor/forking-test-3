@@ -4,8 +4,9 @@ function search(num){
   for(var i = 0; i< arr.length; i++){
     if(arr[i]===num){
       console.log(num);
-    }else if (arr[i]> arr.length){
+    }else if (num> arr.length){
       console.log("it aint in there");
+      break;
     }
   }
 }
